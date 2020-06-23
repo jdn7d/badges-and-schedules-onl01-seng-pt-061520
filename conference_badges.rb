@@ -18,7 +18,7 @@ end
 welcome
 end
 
-def printer
-puts batch_badge_creator(attendees)
+def printer(attendees)
+attendees.each do |prints batch_badge_creator(attendees)|
 puts assign_rooms(attendees)
 end
