@@ -19,9 +19,9 @@ welcome
 end
 
 def printer(attendees)
-batch_badge_creator(attendees).each |message|
+batch_badge_creator(attendees).each do |message|
 puts message
-assign_rooms(attendees).each |assignment|
+assign_rooms(attendees).each do |assignment|
 puts assignment
 end
 end
